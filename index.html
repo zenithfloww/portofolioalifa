@@ -3,42 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap' rel="stylesheet">
     <title>Portofolio Zenithfloww</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Meta Description (optional, SEO) -->
+    <meta name="description" content="Portfolio Alifa - Student at SMAN 5 Yogyakarta">
 </head>
 <body>
     <header>
         <a href="#" class="logo">Zenithfloww</a>
-
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
+
     <section class="home">
         <div class="home-img">
-            <img src="kelinci.png" alt="">
+            <img src="kelinci.png" alt="Foto Alifa atau maskot kelinci">
         </div>
+
         <div class="home-content">
             <h1>Hi, it's <span>Alifa</span></h1>
-            <h3 class="typing-text">I'm a student in SMAN 5 Yogyakarta <span></span></h3>
-            <p>Welcome to my portfolio! I’m Alifa, a student eager to grow in creativity, knowledge, and real-world experience. Here you’ll find my projects, achievements, and aspirations..</p>
-            <div class="social-icons">
-                <div class="social-icons">
-    <a href="https://www.instagram.com/alifasalma._?igsh=MTN6Y2RveWt2NGRsdg==“ target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-    </a>
-</div>
+            <h3 class="typing-text">I'm <span class="typed-text"></span></h3>
+            <p>
+                Welcome to my portfolio! I’m Alifa, a student eager to grow in creativity, knowledge, and real-world experience. 
+                Here you’ll find my projects, achievements, and aspirations.
+            </p>
 
+            <div class="social-icons">
+                <a href="https://www.instagram.com/alifasalma._?igsh=MTN6Y2RveWt2NGRsdg" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/zenithflow" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
+
             <a href="#" class="btn">Hire Me</a>
         </div>
     </section>
+
+    <!-- Typed.js (Typing effect) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typed-text", {
+            strings: ["a student in SMAN 5 Yogyakarta", "a creative learner", "a future developer"],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
+    </script>
 </body>
 </html>
