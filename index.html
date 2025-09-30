@@ -24,7 +24,7 @@
             <a href="#" class="active">Home</a>
             <a href="#">Services</a>
             <a href="#">Skills</a>
-            <a href="#">Education</a>
+            <a href="#education">Education</a>
             <a href="#">Experience</a>
             <a href="#">Contact</a>
         </nav>
@@ -37,6 +37,7 @@
 
         <div class="home-content">
             <h1>Hi, it's <span>Alifa</span></h1>
+            <h3 class="typing-text">I'm <span> </span><span class="typed-textjs"></span></h3>
             <h3 class="typing-text">I'm <span class="typed-text"></span></h3>
             <p>
                 Welcome to my portfolio! I’m Alifa, a student eager to grow in creativity, knowledge, and real-world experience. 
@@ -55,12 +56,23 @@
             <a href="#" class="btn">Hire Me</a>
         </div>
     </section>
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Education</span></h2>
+
+      <div class="edu-container">
+          <div class="edu-card">
+              <h3>SMAN 5 Yogyakarta</h3>
+              <p>Science Program | 2024 – Present</p>
+              <a href="https://drive.google.com/file/d/1uGC6YtsLefqztFeMGH2YFJ2JvdGqRyku/view?usp=share_link"
+                 target="_blank"
+                 class="drive-btn">📂 View Tugas Matriks</a>
+          </div>
 
     <!-- Typed.js (Typing effect) -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        var typed = new Typed(".typed-text", {
-            strings: ["a student in SMAN 5 Yogyakarta", "a creative learner", "a future developer"],
+        var typed = new Typed(".typed-textjs", {
+            strings: [" a student in SMAN 5 Yogyakarta", " a creative learner", " a future developer"],
             typeSpeed: 60,
             backSpeed: 40,
             loop: true
